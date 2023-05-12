@@ -40,7 +40,7 @@ func main() {
 
 	// Set the user agent header to identify our request
 	req.Header.Set("Accept", "application/vnd.github+json")
-	req.Header.Set("Authorization", "bearer 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")
+	req.Header.Set("Authorization", "bearer doh!")
 	req.Header.Set("X-GitHub-Api-Version", "2022-11-28")
 
 	// Send the HTTP request and get the response
